@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body 
+  li
+    a(href="/") home
+  li
+    a(href="/about") about
+  p Continents:
+ul
+  each value, key in continents
+    li= `${value}`
